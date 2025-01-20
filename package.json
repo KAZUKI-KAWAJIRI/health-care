@@ -1,0 +1,23 @@
+{
+  "name": "health-care",
+  "version": "1.0.0",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "dependencies": {
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.7.3",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
